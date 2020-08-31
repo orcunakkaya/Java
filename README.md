@@ -6,4 +6,5 @@ DAIRE(*DNO,KatNo_D_TelNo,D_KisiSayisi,D_GazAboneNo,SuAboneNo,ElkAboneNo,OdaSayis
 KISI(K_TC,D_Tarihi,AdSoyad,Cinsiyet,DNO)
 
 DAIRE(m)<--(1)APARTMAN
+
 DAIRE(1)-->(m)KISI
